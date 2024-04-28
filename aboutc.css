@@ -1,0 +1,159 @@
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigation{
+   
+   height: 70px;
+   background-color: rgb(0, 0, 0);
+   position: relative;
+   display: flex;
+   justify-content: right;
+   border-radius: 0px;
+}
+
+.navigation ul{
+   display: flex;
+   width: 400px;
+   text-align: right;
+}
+
+.navigation ul li{
+   position: relative;
+   list-style: none;
+   width: 100px;
+   height: 20px;
+   z-index: 1;
+}
+
+.navigation ul li a{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   text-align: center;
+   font-weight: 300;
+}
+
+.navigation ul li .icon{
+   position: relative;
+   display: block;
+   line-height: 85px;
+   font-size: 1.5rem;
+   text-align: center;
+   transition: 0.5s;
+   color: rgb(255, 255, 255);
+}
+
+.navigation ul li:hover a .icon{
+   transform: translateY(-25px);
+}
+
+.navigation ul li a .text{
+   position: absolute;
+   color: #ffffff;
+   font-weight: 400;
+   font-size: 0.75em;
+   letter-spacing: 0.05em;
+   transition: 0.5s;
+   opacity: 0;
+   transform: rotateY(10px);
+}
+
+.navigation ul li:hover  a .text{
+   opacity: 10;
+   transform: translateY(10px);
+}
+
+
+
+.about h3 {
+  color: #000000;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.about p {
+  margin-bottom: 20px;
+}
+
+.circle-list {
+  list-style-type: circle;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+/* Styles for step container section */
+.step-container {
+  background-color:  #e6e2dd;
+  padding: 50px;
+}
+
+.step {
+  text-align: center;
+  color: #000000;
+}
+
+.step p{
+  text-align: center;
+  color: #282727;
+}
+
+.step span {
+  font-size: 30px;
+  color: #000000;
+}
+
+.step h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.step .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(
+        to right,
+        hsl(0, 100%, 12%),
+    hsl(0, 91%, 47%)
+    );
+  color: #fff;
+  transition: filter 800ms;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.step .btn:hover {
+  filter: hue-rotate(-40deg);
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Additional styles can be added as needed */
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,165 @@
+.User {
+  background-color:  #e6e2dd;
+  padding: 150px;
+}
+
+.User h1 {
+  color: #000000;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.form-box {
+  background-color: #ffffff;
+  padding: 60px;
+  border-radius: 10px;
+  
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #4e4d50;
+  border-radius: 5px;
+}
+
+.input-box .icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: #ffffff;
+}
+
+.input-box label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 40px;
+  color: #484848;
+  font-size: 16px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.input-box input:focus + label,
+.input-box input:valid + label {
+  top: 10px;
+  font-size: 12px;
+}
+
+.remember-forget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-forget label {
+  font-size: 14px;
+  color: #656565;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(
+        to right,
+        hsl(0, 100%, 12%),
+    hsl(0, 91%, 47%)
+    );
+  color: #ffffff;
+  transition: filter 1000ms;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.9s ease;
+}
+
+.btn:hover {
+  filter: hue-rotate(-40deg);
+}
+
+
+
+.navigation{
+   
+   height: 70px;
+   background-color: rgb(0, 0, 0);
+   position: relative;
+   display: flex;
+   justify-content: right;
+   border-radius: 0px;
+}
+
+.navigation ul{
+   display: flex;
+   width: 400px;
+   text-align: right;
+}
+
+.navigation ul li{
+   position: relative;
+   list-style: none;
+   width: 100px;
+   height: 20px;
+   z-index: 1;
+}
+
+.navigation ul li a{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   text-align: center;
+   font-weight: 300;
+}
+
+.navigation ul li .icon{
+   position: relative;
+   display: block;
+   line-height: 65px;
+   font-size: 1.5rem;
+   text-align: center;
+   transition: 0.5s;
+   color: rgb(255, 255, 255);
+}
+
+.navigation ul li:hover a .icon{
+   transform: translateY(-25px);
+}
+
+.navigation ul li a .text{
+   position: absolute;
+   color: #ffffff;
+   font-weight: 400;
+   font-size: 0.75em;
+   letter-spacing: 0.05em;
+   transition: 0.5s;
+   opacity: 0;
+   transform: rotateY(10px);
+}
+
+.navigation ul li:hover  a .text{
+   opacity: 10;
+   transform: translateY(10px);
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}

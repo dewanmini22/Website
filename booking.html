@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--custom css file link-->
+        <link rel="stylesheet" href="bookingc.css">
+        </head>
+        <body>
+
+            
+            <nav class="navigation">
+                <ul>
+                    <li class="list">
+                        <a href="my web.html">
+                            <span class="icon">
+                                <ion-icon name="home-outline"></ion-icon>
+                            </span>
+                            <span class="text">Home</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="about.html">
+                            <span class="icon">
+                                <ion-icon name="reorder-four-outline"></ion-icon>
+                            </span>
+                            <span class="text">About</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="user.html">
+                            <span class="icon">
+                                <ion-icon name="person-outline"></ion-icon>
+                            </span>
+                            <span class="text">User</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="photo.html">
+                            <span class="icon">
+                                <ion-icon name="images-outline"></ion-icon>
+                            </span>
+                            <span class="text">Photo</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="conditions.html">
+                            <span class="icon">
+                                <ion-icon name="newspaper-outline"></ion-icon>
+                            </span>
+                            <span class="text">T & C</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="booking.html">
+                            <span class="icon">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </span>
+                            <span class="text">Booking</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+
+<!--Registration section start-->
+
+<section class="registration" id="registration">
+    
+    <form id="form1" name="form1" method="post" action="">
+        
+        <table width="478" border="0" align="center">
+            
+            <tr>
+                
+                <td colspan="2"><h1 align="center">BOOKING NOW</h1></td>
+            
+            </tr>
+            
+            <tr>
+                
+                <td width="251"><b>Full Name</b></td>
+                <td width="217"><label for="txtFullName"></label>
+                    
+                    <input type="text" name="txtFullName" id="txtFullName" /></td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>
+                    <b>Email Address</b>
+                </td>
+
+                <td>
+                    <label for="txtEmail">
+
+                    </label>
+                    
+                    <input type="text" name="txtEmail" id="txtEmail" />
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>
+                    <b>Contact Number</b>
+                </td>
+
+                <td>
+                    <label for="txtContact"></label>
+                    <input type="text" name="txtContact" id="txtContact" />
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td><b>Photoshoot Type</b></td>
+                
+                <td>
+                    <label for="lstTourType"></label>
+
+                    <select name="lstTourType" id="lstTourType">
+                        <option value="">-----------Select-----------</option>
+                        <option value="Wedding">Wedding</option>
+                        <option value="Birthday">Birthday</option>
+                        <option value="Function">Function</option>
+                    </select>
+
+                </td>
+
+            </tr>
+            
+            <tr>
+                <td>
+                    <b>Is this your first Photoshoot</b>
+                </td>
+
+                <td>
+                     <p>
+
+                         <label>
+                             <input type="radio" name="rdoOption" value="Yes" id="rdoOption_0" />
+                             <b>Yes</b>
+                         </label><br />
+                    
+                        <label>
+                            <input type="radio" name="rdoOption" value="No" id="rdoOption_1" />
+                            <b>No</b>
+                        </label>
+                        <br />
+                    
+                    </p>
+                
+                </td>
+           
+            </tr>
+            
+            <tr>
+                
+                <td>
+                    <input type="checkbox" name="chkEmailMe" id="chkEmailMe" />
+                    <label for="chkEmailMe"></label>
+                    <b>Email me the latest updates</b>
+                </td>
+                
+                <td>&nbsp;</td>
+            
+            </tr>
+            
+            <tr>
+
+                <td height="71">
+
+                    <input type="submit" name="btnSubmit" id="btnSubmit" value="Submit" onClick="ValidateAll()">  
+                    <input type="reset" name="btnReset" id="btnReset" value="Reset" />
+
+                </td>
+
+            </tr>
+        
+        </table>
+
+    </form>
+
+</section>
+
+
+<!--Registration section end-->
+
+
+
+        </body>
+        </html>

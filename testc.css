@@ -1,0 +1,128 @@
+body{
+   background-color:  #e6e2dd;
+}
+.registration {
+    margin-top: 100px;
+  }
+  
+  .registration h1 {
+    text-align: center;
+    font-size: 34px;
+    color: #000000;
+    margin-bottom: 60px;
+  }
+  
+  .registration table {
+    width: 578px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .registration td {
+    padding: 10px;
+  }
+  
+  .registration input[type="text"],
+  .registration input[type="email"],
+  .registration input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #666464;
+    border-radius: 4px;
+  }
+  
+  .registration input[type="submit"] {
+    padding: 10px 20px;
+    background: linear-gradient(
+        to right,
+        hsl(0, 100%, 12%),
+        hsl(0, 91%, 47%)
+    );
+    color: #fff;
+    transition: filter 800ms;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .registration input[type="submit"]:hover {
+    filter: hue-rotate(-40deg);
+  }
+  
+  *{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .navigation{
+     
+     height: 70px;
+     background-color: rgb(0, 0, 0);
+     position: relative;
+     display: flex;
+     justify-content: right;
+     border-radius: 0px;
+  }
+  
+  .navigation ul{
+     display: flex;
+     width: 400px;
+     text-align: right;
+  }
+  
+  .navigation ul li{
+     position: relative;
+     list-style: none;
+     width: 100px;
+     height: 20px;
+     z-index: 1;
+  }
+  
+  .navigation ul li a{
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 100%;
+     text-align: center;
+     font-weight: 300;
+  }
+  
+  .navigation ul li .icon{
+     position: relative;
+     display: block;
+     line-height: 85px;
+     font-size: 1.5rem;
+     text-align: center;
+     transition: 0.5s;
+     color: rgb(255, 255, 255);
+  }
+  
+  .navigation ul li:hover a .icon{
+     transform: translateY(-25px);
+  }
+  
+  .navigation ul li a .text{
+     position: absolute;
+     color: #ffffff;
+     font-weight: 400;
+     font-size: 0.75em;
+     letter-spacing: 0.05em;
+     transition: 0.5s;
+     opacity: 0;
+     transform: rotateY(10px);
+  }
+  
+  .navigation ul li:hover  a .text{
+     opacity: 10;
+     transform: translateY(10px);
+  }
+  
+

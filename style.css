@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
+
+
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; border: none;
+    outline: none; border: none;
+    transition: .2s linear;
+    text-transform: capitalize;
+}
+
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+
+
+section{
+    padding: 3rem 9%;
+}
+
+
+
+.btn {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  background: linear-gradient(
+        to right,
+        hsl(0, 100%, 12%),
+    hsl(0, 91%, 47%)
+    );
+  color: #ffffff;
+  transition: filter 600ms;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  filter: hue-rotate(-40deg);
+}
+
+
+
+.heading{
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 4rem;
+    
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+header{
+   background-color: #e6e2dd;
+    transition: filter 100ms;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 10000;
+    padding: 1.5rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .navbar a{
+  color: #ffffff;;
+    font-size: 2rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 18px;
+    transition: 0.8s ease;
+}
+
+header .navbar a:hover{
+  
+ color: #000000;
+}
+
+header .navbar a:not(:hover){
+  color: #D30000;
+    opacity: 0.9;
+    filter: blur(0.1px);
+}
+
+
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(newpagemine.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home .content span{
+    font-style: italic;
+    font-size: 5rem;
+    color: rgb(0, 0, 0);
+
+}
+
+.home .content h3{
+    font-size: 3rem;
+    color: rgb(65, 65, 65);
+    width: 10rem;
+}
+
+
+.contact {
+  background-color:  #e6e2dd;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.box-container {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: #f6efef;
+  border-radius: 60px;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.share a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.share a:hover {
+  color: #ff0000;
+}
+
+.fab {
+  width: 80px;
+  height: 90px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  
+}
+
+
+  /* Style the footer */
+footer {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
